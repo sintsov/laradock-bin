@@ -1,3 +1,3 @@
 #!/bin/bash
 arg="$@"
-docker exec -t laradock_mysql_1 su laradock bash -c "mysqldump $arg";
+docker exec -t laradock_mysql_1 bash -c "mysqldump $arg";
